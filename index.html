@@ -1,0 +1,328 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="fab fa-bootstrap me-2"></i>Bootstrap  
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home me-1"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user me-1"></i>About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-briefcase me-1"></i>Components
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><i class="fas fa-th-large me-2"></i>Grid System</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-cube me-2"></i>Components</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-palette me-2"></i>Utilities</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope me-1"></i>Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search components..." aria-label="Search">
+            <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-primary text-white py-5">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">Bootstrap Developer  </h1>
+            <p class="lead mb-4">Mastering Bootstrap framework to create responsive, modern web applications. Specializing in mobile-first design and component-based development.</p>
+            <div class="d-flex gap-3 justify-content-center">
+              <button type="button" class="btn btn-light btn-lg px-4">
+                <i class="fas fa-download me-2"></i>Download CV
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                <i class="fas fa-eye me-2"></i>View Projects
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=500&fit=crop" class="img-fluid rounded-circle shadow-lg w-75" alt="Bootstrap Development">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row text-center mb-5">
+        <div class="col-12">
+          <h2 class="display-6 fw-bold text-dark mb-3">Bootstrap Components Showcase</h2>
+          <p class="text-muted lead">Explore Bootstrap components and responsive design patterns</p>
+        </div>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Grid System">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Grid System Layout</h5>
+                <span class="badge bg-success">Bootstrap 5</span>
+              </div>
+              <p class="card-text text-muted">Responsive grid system with 12 columns, breakpoints, and flexible container classes for perfect layouts.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Container</span>
+                <span class="badge bg-light text-dark">Row</span>
+                <span class="badge bg-light text-dark">Col</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 2 days ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Components">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Component Library</h5>
+                <span class="badge bg-info">Components</span>
+              </div>
+              <p class="card-text text-muted">Complete set of Bootstrap components including cards, buttons, forms, modals, and navigation elements.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Cards</span>
+                <span class="badge bg-light text-dark">Buttons</span>
+                <span class="badge bg-light text-dark">Forms</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 1 week ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Utilities">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Utility Classes</h5>
+                <span class="badge bg-warning">Utilities</span>
+              </div>
+              <p class="card-text text-muted">Comprehensive utility classes for spacing, colors, typography, flexbox, and responsive design.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Spacing</span>
+                <span class="badge bg-light text-dark">Colors</span>
+                <span class="badge bg-light text-dark">Flexbox</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 3 days ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Forms">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Form Components</h5>
+                <span class="badge bg-secondary">Forms</span>
+              </div>
+              <p class="card-text text-muted">Advanced form controls with validation states, input groups, and custom styling for better user experience.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Input</span>
+                <span class="badge bg-light text-dark">Select</span>
+                <span class="badge bg-light text-dark">Validation</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 5 days ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Navigation">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Navigation System</h5>
+                <span class="badge bg-primary">Navbar</span>
+              </div>
+              <p class="card-text text-muted">Responsive navigation components including navbar, breadcrumbs, pagination, and dropdown menus.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Navbar</span>
+                <span class="badge bg-light text-dark">Breadcrumbs</span>
+                <span class="badge bg-light text-dark">Pagination</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 1 week ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap JavaScript">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">JavaScript Plugins</h5>
+                <span class="badge bg-danger">JS</span>
+              </div>
+              <p class="card-text text-muted">Interactive components powered by JavaScript including modals, tooltips, carousels, and collapse elements.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Modal</span>
+                <span class="badge bg-light text-dark">Tooltip</span>
+                <span class="badge bg-light text-dark">Carousel</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 2 weeks ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Responsive">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Responsive Design</h5>
+                <span class="badge bg-success">Mobile-First</span>
+              </div>
+              <p class="card-text text-muted">Mobile-first responsive design approach with breakpoints for all device sizes and orientations.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Mobile</span>
+                <span class="badge bg-light text-dark">Tablet</span>
+                <span class="badge bg-light text-dark">Desktop</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 1 day ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Theming">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Custom Theming</h5>
+                <span class="badge bg-warning">Sass</span>
+              </div>
+              <p class="card-text text-muted">Customizable theming system with Sass variables, color schemes, and component customization options.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Variables</span>
+                <span class="badge bg-light text-dark">Colors</span>
+                <span class="badge bg-light text-dark">Sass</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 4 days ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop" class="card-img-top" alt="Bootstrap Icons">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold">Icon Integration</h5>
+                <span class="badge bg-info">Icons</span>
+              </div>
+              <p class="card-text text-muted">Seamless integration with Font Awesome icons and Bootstrap's built-in icon system for enhanced UI.</p>
+              <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-light text-dark">Font Awesome</span>
+                <span class="badge bg-light text-dark">SVG</span>
+                <span class="badge bg-light text-dark">Icons</span>
+              </div>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fas fa-calendar me-1"></i>Updated 1 week ago</small>
+                <button class="btn btn-outline-primary btn-sm">View Component</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="mb-3"><i class="fab fa-bootstrap me-2"></i>Bootstrap Portfolio</h5>
+            <p class="text-muted">Mastering Bootstrap framework for responsive and modern web development.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div class="d-flex gap-3 justify-content-md-end">
+              <a href="#" class="text-white fs-4"><i class="fab fa-github"></i></a>
+              <a href="#" class="text-white fs-4"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="text-white fs-4"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white fs-4"><i class="fab fa-bootstrap"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-3">
+        <div class="text-center text-muted">
+          <small>&copy; 2024 Bootstrap Portfolio. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
